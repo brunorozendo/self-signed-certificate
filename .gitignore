@@ -1,3 +1,9 @@
+**/*.crt
+**/*.pkcs8
+**/*.csr
+**/*.p12
+**/*.jks
+
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,intellij+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,intellij+all
 

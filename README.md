@@ -53,7 +53,7 @@ openssl x509 -req -in nginx/nginx.csr -CA ca/ca.crt -CAkey ca/ca.pkcs8  -out ngi
 
 ### Step 3 - install certificates on the machine
 
-** example of macOs. after install go to keystore e make sure all certificates are marked as trusted 
+#### Example MacOS 
 
 ```bash
 sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain ca/ca.crt
@@ -61,6 +61,14 @@ sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keyc
 sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain node/react.crt
 sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain nginx/nginx.crt
 ```
+
+
+** After install go to keystore e make sure all certificates are marked as trusted
+
+![alt text](./img/mac_not_trusted.png)
+![alt text](./img/mac_trusted.png)
+
+
 
 
 
