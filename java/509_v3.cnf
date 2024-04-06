@@ -5,4 +5,14 @@ subjectAltName = @alt_names
 
 [alt_names]
 DNS.1 = localhost
-DNS.2 = java.localhost
+DNS.2 = java.local.dev
+DNS.4 = springboot.local.dev
+DNS.5 = quarkus.local.dev
+DNS.6 = backend
+DNS.7 = springboot
+DNS.8 = quarkus
+DNS.9 = java
+DNS.10 = javaee
+DNS.11 = javaee.local.dev
+DNS.12 = micronaut
+DNS.13 = micronaut.local.dev

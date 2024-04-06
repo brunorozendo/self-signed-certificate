@@ -5,4 +5,12 @@ subjectAltName = @alt_names
 
 [alt_names]
 DNS.1 = localhost
-DNS.2 = react.localhost
+DNS.2 = node.local.dev
+DNS.4 = react.local.dev
+DNS.5 = angular.local.dev
+DNS.6 = vue.local.dev
+DNS.7 = frontend
+DNS.8 = react
+DNS.9 = angular
+DNS.10 = vue
+DNS.11 = node

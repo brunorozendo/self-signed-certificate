@@ -5,4 +5,25 @@ subjectAltName = @alt_names
 
 [alt_names]
 DNS.1 = localhost
-DNS.2 = nginx.localhost
+DNS.2 = java.local.dev
+DNS.4 = springboot.local.dev
+DNS.5 = quarkus.local.dev
+DNS.6 = backend
+DNS.7 = springboot
+DNS.8 = quarkus
+DNS.9 = java
+DNS.10 = javaee
+DNS.11 = javaee.local.dev
+DNS.12 = micronaut
+DNS.13 = micronaut.local.dev
+DNS.12 = node.local.dev
+DNS.14 = react.local.dev
+DNS.15 = angular.local.dev
+DNS.16 = vue.local.dev
+DNS.17 = frontend
+DNS.18 = react
+DNS.19 = angular
+DNS.20 = vue
+DNS.21 = node
+DNS.22 = nginx
+DNS.23 = nginx.local.dev

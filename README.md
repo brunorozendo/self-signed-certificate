@@ -72,10 +72,10 @@ sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keyc
 #### Example Linux Fedora
 
 ```bash
-sudo mv ca/ca.crt  /etc/pki/ca-trust/source/anchors/brunorozendo_ca.pem
-sudo mv java/springboot.crt  /etc/pki/ca-trust/source/anchors/brunorozendo_springboot.pem
-sudo mv node/react.crt  /etc/pki/ca-trust/source/anchors/brunorozendo_react.pem
-sudo mv nginx/nginx.crt  /etc/pki/ca-trust/source/anchors/brunorozendo_nginx.pem
+sudo cp ca/ca.crt  /etc/pki/ca-trust/source/anchors/brunorozendo_ca.pem
+sudo cp java/springboot.crt  /etc/pki/ca-trust/source/anchors/brunorozendo_springboot.pem
+sudo cp node/react.crt  /etc/pki/ca-trust/source/anchors/brunorozendo_react.pem
+sudo cp nginx/nginx.crt  /etc/pki/ca-trust/source/anchors/brunorozendo_nginx.pem
 sudo update-ca-trust
 ```
 
